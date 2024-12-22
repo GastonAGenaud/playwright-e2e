@@ -6,7 +6,7 @@ export default defineConfig({
     fullyParallel: true,
     use: {
         baseURL: 'https://demoqa.com',
-        headless: false,
+        headless: true,
     },
     reporter: [['html', {outputFolder: 'playwright-report', open: 'never'}]],
     projects: [
